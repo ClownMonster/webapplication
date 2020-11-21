@@ -12,4 +12,6 @@ def loginScreen(request):
 def registerScreen(request):
     return render(request,template_name = 'register.html')
 
+def chatroom(request):
+    return render(request,template_name = 'chatroom.html')
 

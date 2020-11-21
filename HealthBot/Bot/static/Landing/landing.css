@@ -171,13 +171,14 @@ img{
 
 .home__description{
   margin-bottom: 2.5rem;
+  font-size: 1.25rem;
 }
 
 .home__button{
   display: inline-block;
   outline: none;
 	border: none;
-  background-color: linear-gradient(to right, #3F3D56, #37354c, #3b394f);
+  background-color:#3F3D56;
   color : var(--white-color);
   padding: 1.125rem 2rem;
   font-size: 1.2rem;
