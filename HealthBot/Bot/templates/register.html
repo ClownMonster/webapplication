@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Animated Login Form</title>
+	<title>Healthify Register Form</title>
 	<link rel="stylesheet" type="text/css" href="./../static/Login/auth.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
@@ -14,21 +14,23 @@
 			<img src="./../static/Login/imgs/undraw_Access_account_re_8spm.svg">
 		</div>
 		<div class="login-content">
-			<form action="index.html">
+			<form method="POST" action="index.html">
 				<img src="./../static/Login/imgs/undraw_profile_pic_ic5t.svg">
-				<h2 class="title">Welcome</h2>
+				<h3 class="title">LET'S GET YOU ONBOARD</h3>
            		<div class="input-field">
            		   		<i class="fas fa-user"></i>
-           		   		<input type="text" placeholder="Username">
+           		   		<input type="text" placeholder="Name">
            		</div>
-           		<div class="input-field">
-           		   <div class="i"> 
-           		    	<i class="fas fa-lock"></i>
-           		   </div>
-           		    	<input type="password" placeholder="Password">	   
+           		<div class="input-field"> 
+           		    	<i class="fas fa-envelope"></i>  	   
+                           <input type="email" placeholder="Email"> 
+           		</div>
+                <div class="input-field"> 
+                         <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" >
             	</div>
-				<input type="submit" class="btn" value="Login">
-				<a href="/register">New to our Platform ? Register</a>
+				<input type="submit" class="btn" value="Register">
+				<a href="/login">Already have an account ? Login</a>
             </form>
         </div>
     </div>
